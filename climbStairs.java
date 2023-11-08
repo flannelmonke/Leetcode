@@ -1,5 +1,5 @@
 public class climbStairs {
-    public int climbStairs(int n) {
+    public int climbStair(int n) {
         int numberOfWays[] = new int[n+1];
         for(int i =0; i <=n; i++){
             if(i==0)
