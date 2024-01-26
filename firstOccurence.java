@@ -3,6 +3,8 @@ public class firstOccurence {
         String haystack = "mississippi";
         String needle = "pi";
         System.out.println(strStr(haystack, needle));
+        System.out.println(haystack.substring(1, 2));
+        haystack.equals(needle);
     }
 
     public static int strStr(String haystack, String needle) {
